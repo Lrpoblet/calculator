@@ -1,0 +1,41 @@
+* {
+  background-image: url(../images/background.png);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  margin: 10px;
+}
+
+.box {
+  text-align: center;
+}
+
+.result {
+  font-size: 20px;
+}
+
+.reset {
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.reset:hover {
+  color: white;
+  border: 1px solid white;
+}
