@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <div className="body">
-      <h1 className="title">Calculadora:</h1>
+      <h1 className="title">Calculadora</h1>
       <form className="calc">
         <label className="label" htmlFor="op">
           Operación:

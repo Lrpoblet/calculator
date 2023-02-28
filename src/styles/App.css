@@ -18,14 +18,20 @@
 
 .label {
   margin: 10px;
+  font-size: 18px;
 }
 
 .box {
   text-align: center;
+  border: 1px solid black;
+  margin-left: 10px;
+  object-fit: contain;
+  width: 100px;
+  padding: 2px;
 }
 
 .result {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .reset {
